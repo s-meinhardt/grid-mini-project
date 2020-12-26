@@ -355,7 +355,6 @@ Layout
     grid-column: col-2-end/end;
     grid-row: row-1-end/row-2-end;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
     align-items: center;
     background-color: var(--darkGrey);
   }
@@ -366,7 +365,6 @@ Layout
   .navbar ul {
     height: 100%;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
     align-items: center;
   }
 }
